@@ -9,26 +9,28 @@ body{
 }
 nav{
     position: fixed;
-    display: inline-block;
+    display: contents;
 }
 
 nav ul li{
-    display: inline-block;
+    display: contents;
+    position: fixed;
 }
 
-.bg-1{
+
+#bg-1{
     background-color: red;
     height: 100vh;
     position: relative;
 }
 
-.bg-2{
+#bg-2{
     background-color: green;
     height: 100vh;
     position: relative;
 }
 
-.bg-3{
+#bg-3{
     background-color: yellow;
     height: 100vh;
     position: relative;
@@ -41,12 +43,16 @@ nav ul li{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* scritte immagine */
 .p-yellow{
     text-transform: uppercase;
     font-weight: bold;
     color: #FFFF00;
     text-align: center;
     font-size: 40px;
+    margin: auto;
+    width: 59%;
 }
 
 .p-green{
@@ -55,5 +61,8 @@ nav ul li{
     color: green;
     text-align: center;
     font-size: 40px;
+    margin: auto;
+    width: 59%;
 }
+
 
