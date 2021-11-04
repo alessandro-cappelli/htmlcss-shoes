@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -7,6 +11,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
 nav{
     position: fixed;
     z-index: 999;
@@ -52,7 +57,6 @@ a{
     height: 100vh;
     position: relative;
 }
-
 
 .center{
     position: absolute;
